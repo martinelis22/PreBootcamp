@@ -4,5 +4,39 @@
     padding: 50px;
     background: url('../img/ai-generated-8627457_640.png') top center no-repeat;
     background-size: cover;
+    position: relative;
+    z-index: 30;
 
 }
+
+.header-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: .5;
+    z-index: 31;
+}
+
+
+.header-content{
+    position: absolute;
+    padding: 2rem;
+    z-index: 32;
+}
+.header-content > h1{
+    text-align: center;
+}
+.header-content > .tagline{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.header-content .promo-text {
+    margin: 60% 2rem 0 2rem;
+    background-color:rgba(255,255,255, .25) ;
+    padding: 2rem;
+    text-shadow: black 1px 1px;
+}
+

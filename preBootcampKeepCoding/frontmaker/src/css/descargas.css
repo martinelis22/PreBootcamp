@@ -1,0 +1,21 @@
+.descargas{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    
+    
+    
+    
+}
+
+.descargas > li {
+display: inline-block;
+margin: 0 .5rem;
+
+}
+
+.PC, .XBOX, .PS4, .WEB,  .PEGI16{
+height: 89px;
+width: 89px;
+}
+

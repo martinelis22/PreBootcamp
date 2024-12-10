@@ -30,7 +30,15 @@ a{
 
 }
 
-/*img{
+img{
     width: 100%;
     
-}*/
+}
+
+.container{
+    padding: 0 1rem;
+}
+
+.xl{
+    font-size: 1.5rem;
+}
