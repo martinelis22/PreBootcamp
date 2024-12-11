@@ -6,10 +6,13 @@
     <title>The Frontender</title>
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Monda:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/variables.css">
      <link rel="stylesheet" href="./css/styles.css">
      <link rel="stylesheet" href="./css/navbar.css">
      <link rel="stylesheet" href="./css/header.css">
      <link rel="stylesheet" href="./css/descargas.css">
+     <link rel="stylesheet" href="./css/forms.css">
+     
      
 </head>
 <body>
@@ -67,7 +70,43 @@
 
         <section id="comunidad">
             <h1>Comunidad</h1>
-            <p>Crear formulario para subscripcion</p>
+            <form action="" id="subscribe">
+                <p>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="form-nombre" placeholder="Quien eres">
+                </p>
+
+                <p>
+                    <label for="email">Correo electronico</label>
+                    <input type="email" name="email" id="form-email" placeholder="Tu email (no te haremos SPAM)">
+                </p>
+
+                <p>
+                    <label for="alias">Alias</label>
+                    <input type="text" name="alias" id="form-alias" placeholder="¿Tienes un alias para el juego">
+                </p>
+
+                <p class="checkbox">
+                    
+                    <input type="checkbox" name="boletin" id="boletin">
+                    <label for="boletin">¿Quieres suscribirte a nuestro boletin de novedades?</label>
+                    
+                </p>
+
+                <p>
+                    <label for="bio">Sobre ti:</label>
+                    <textarea name="bio" id="form-bio" cols="30" rows="10" placeholder="Cuentanos algo sobre tu vida"></textarea>
+                </p>
+                
+
+               <p>
+                    <input type="submit" value="enviar">
+                </p>
+                
+
+
+            </form>
+            
         </section>
 
         <section id="galeria">
