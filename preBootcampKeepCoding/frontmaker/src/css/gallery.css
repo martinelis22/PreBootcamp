@@ -1,0 +1,31 @@
+.gallery-grid{
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: row-reverse;*/
+    justify-content:center;
+}
+
+.gallery-grid .gallery-item img{
+    filter: grayscale(100%);
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.gallery-grid .gallery-item:hover img{
+    filter: none; /*quita la propiedad grayscale cuando pasamos el raton por encima*/
+}
+
+.gallery-item{
+    position: relative;
+    border: solid 1px green;
+    margin: 10px;
+}
+
+.gallery-overlay{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: solid 1px red;
+}
