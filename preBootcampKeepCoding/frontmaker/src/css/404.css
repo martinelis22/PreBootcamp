@@ -1,0 +1,57 @@
+* {
+    font-family: 'Catamaran', Arial, Helvetica, sans-serif;
+
+}
+.wrapper {
+    height: 100vh; 
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.main {
+    margin: 2rem;
+}
+ 
+.error-code {
+    font-family: 'Catamaran', 'Monda', 'Roboto + Mono', Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    font-size: 8rem;
+    line-height: 8rem;
+    margin: 0;
+    color: #333333;
+    letter-spacing: -1.4rem;
+    text-shadow: -5px 0 0 #ffffff;
+    font-family: inherit;
+}
+
+.error-code span {
+    text-shadow: -5px 0 0 #ffffff;
+    font-family: inherit;
+}
+
+.message {
+    font-family: 'Catamaran', 'Monda', 'Roboto + Mono', Arial, Helvetica, sans-serif;  
+    font-weight: 1000;
+    color: #333333;
+
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.actions {
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: .5rem 1.5rem;
+    text-decoration: none;
+}
